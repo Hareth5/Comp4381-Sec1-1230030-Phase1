@@ -3,7 +3,6 @@
 **Student:** Hareth shoman<br>
 **Student ID:** 1230030<br>
 **Course:** COMP 4381 — Section 1<br>
-**Phase:** 1 — Topic Selection and Repository Setup<br>
 **Private repository:** [Comp4381-Sec1-1230030-Phase1](https://github.com/Hareth5/Comp4381-Sec1-1230030-Phase1)
 
 ## Topic and dataset
