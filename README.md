@@ -1,58 +1,45 @@
 # Medical Insurance Charges: Smoking Status, Age, and BMI
 
 **Course:** COMP 4381 — Data Science and Analytics, Birzeit University, 2026/2027<br>
-**Student name:** Hareth shoman (from GitHub profile; confirm spelling)<br>
+**Student:** Hareth shoman<br>
 **Student ID:** 1230030<br>
 **Section:** 1<br>
-**Phase:** 1<br>
-**Repository:** [Hareth5/Comp4381-Sec1-1230030-Phase1](https://github.com/Hareth5/Comp4381-Sec1-1230030-Phase1) (private; keep private)<br>
-**Phase 1 deadline:** November 13, 2026, end of day, Asia/Hebron time.<br>
-**Status:** Initial project setup; topic selected. Analysis and final report remain in progress.
+**Phase:** 1 — Topic Selection and Repository Setup<br>
+**Private repository:** [Comp4381-Sec1-1230030-Phase1](https://github.com/Hareth5/Comp4381-Sec1-1230030-Phase1)
 
-## Topic, dataset, and objective
+## Selected topic and dataset
 
-**Selected approved topic:** Medical Cost Prediction.<br>
-**Dataset:** `insurance.csv` from the instructor's [Data-Science-Projects repository](https://github.com/asabbah44/Data-Science-Projects/tree/main/Medical%20Cost%20Prediction).
+**Topic:** Medical Cost Prediction, selected from the instructor's [approved repository](https://github.com/asabbah44/Data-Science-Projects/tree/main/Medical%20Cost%20Prediction).
 
-This project will investigate patterns in medical insurance charges using a small table of beneficiary attributes. The checked source file contains **1,338 rows and seven columns**: `age`, `sex`, `bmi`, `children`, `smoker`, `region`, and `charges`. One row represents a beneficiary record; no unique beneficiary identifier is supplied.
+**Dataset:** `insurance.csv`, stored unchanged in `data/raw/insurance.csv`. It contains 1,338 beneficiary records and seven columns: age, sex, BMI, number of children, smoking status, residential region, and insurance charges. See [data/README.md](data/README.md) for the source.
 
-**Proposed analytical question:** How do insurance charges differ by smoking status, and how are charges associated with age and BMI?
+## Project description and initial objective
 
-Start with descriptive statistics, group comparisons, and interpretable charts. Use simple linear regression only if it helps answer the question and has been covered in class. Confirm all permitted libraries and techniques before expanding the analysis. No source notebooks, models, results, or conclusions are included.
+This project will investigate how medical insurance charges vary with recorded beneficiary characteristics. It provides a manageable setting for exploring relationships between numerical measurements, categories, and charges.
 
-See [data documentation](data/README.md) for provenance and variable definitions, and the [development plan](docs/project_plan.md) for the four project stages.
+**Initial analytical question:** How do insurance charges differ by smoking status, and how are charges associated with age and BMI?
+
+One row represents a beneficiary record. The objective is to describe associations in this supplied dataset. This is an educational data-analysis exercise and does not provide professional decisions or advice.
 
 ## Repository structure
 
 ```text
 README.md
-requirements.txt                 # Tested direct dependency versions
-AGENTS.md                        # Deadline and repository instructions
+requirements.txt
 .gitignore
 .gitattributes
 data/
-  README.md                      # Source, dictionary, and data-quality notes
-  source_metadata.json           # Source revision and SHA-256 checksum
-  raw/insurance.csv              # Unmodified approved dataset
-  processed/                     # Save justified derived data here later
+  README.md
+  SOURCE_LICENSE.txt
+  raw/
+    insurance.csv
 notebooks/
-  project.ipynb                  # Executable starter notebook with explanations
-figures/                         # Save selected figures here during analysis
-report/
-  final_report.md                # Required-section outline; not a finished report
-  final_report.pdf               # Create after completing the analysis (pending)
-docs/
-  course_requirements.md         # Supplied assignment, retained for reference
-  project_plan.md
-  submission_checklist.md
-  submission_instructions.md     # Phase 1 deadline, TA, and Ritaj delivery rules
-  verification.md
-  source_repository_license.txt  # Notice accompanying the dataset source
+  project.ipynb
 ```
 
-## Run the notebook
+## Run the Phase 1 notebook
 
-The starter is tested with Python 3.14. Use the exact dependency versions in `requirements.txt`. From this repository's root in Windows PowerShell:
+Tested with Python 3.14. From the repository root in Windows PowerShell:
 
 ```powershell
 python -m venv .venv
@@ -60,41 +47,26 @@ python -m venv .venv
 .\.venv\Scripts\python.exe -m jupyterlab
 ```
 
-On macOS/Linux, use `.venv/bin/python` in place of `.\.venv\Scripts\python.exe`.
+Open `notebooks/project.ipynb`, select the virtual environment's Python kernel, and choose **Restart Kernel and Run All Cells**. On macOS/Linux, use `.venv/bin/python` instead of `.\.venv\Scripts\python.exe`.
 
-Open `notebooks/project.ipynb`, select the virtual environment's Python kernel, then choose **Restart Kernel and Run All Cells**. The notebook finds the project root from its folder or the repository root; no machine-specific data paths are needed. The raw CSV is stored in this private repository, so running it does not require a dataset download.
+The notebook introduces the topic, dataset, and objective, then loads a preview using a portable relative path. The CSV is included, so no runtime dataset download is needed.
 
-To execute without the interactive interface, run from the repository root:
+## Phase 1 submission checklist
 
-```powershell
-.\.venv\Scripts\python.exe -m jupyter nbconvert --to notebook --execute --inplace --ExecutePreprocessor.kernel_name=python3 --ExecutePreprocessor.timeout=120 notebooks/project.ipynb
-```
+- [x] Select an approved topic and dataset.
+- [x] Define the initial project question and unit of analysis.
+- [x] Create the private repository with the required name.
+- [x] Create the initial README and add/document the dataset.
+- [x] Prepare the Phase 1 notebook.
+- [x] Send a collaborator invitation to TA [Hadeel-Abdaljalil](https://github.com/Hadeel-Abdaljalil).
+- [ ] Verify TA acceptance; invitation was pending when last checked.
+- [ ] Add the instructor once their GitHub username is provided.
+- [ ] Review the final Phase 1 notebook and verify the intended version is committed and pushed before the deadline.
+- [ ] Send the TA the repository URL and a notebook copy (student will do this).
+- [ ] Submit the notebook by replying to the designated Ritaj assignment message using **TA ID 9027** (student will do this). Do not use Ritaj Memo or another method.
 
-The initial notebook loads and audits the dataset. Later sections contain prompts for your own cleaning decisions, EDA, statistical reasoning, optional modeling/evaluation, and final interpretation. Running the starter successfully does not mean these stages are complete.
+**Deadline:** End of November 13, 2026, Asia/Hebron time. Complete all repository changes, commits, and pushes before November 14 at 00:00 local time. **Do not modify the repository, commit, or push after the deadline.**
 
-## GitHub development and access
+## Sources and acknowledgment
 
-Keep this repository private. The designated TA account is [Hadeel-Abdaljalil](https://github.com/Hadeel-Abdaljalil). A collaborator invitation was sent on November 9, 2026 and is **pending acceptance**. TA access is established only after acceptance. The instructor's GitHub username is still needed; do not infer it from the dataset author's username.
-
-Make clear, meaningful commits as real work develops and push the latest working version throughout the semester. See [project_plan.md](docs/project_plan.md) for example commands. Do not upload only at the end or fabricate development history.
-
-## Phase 1 submission
-
-Commit and push all Phase 1 work before the end of November 13, 2026 (Asia/Hebron). **Do not modify the repository, commit, or push after that deadline.** Late updates lose marks.
-
-The student will send the repository URL and a copy of `notebooks/project.ipynb` to the TA. The student will also submit the notebook through the designated Ritaj assignment by replying to its message, using **TA ID 9027**. Do not submit via Ritaj Memo or another method. These manual submissions are pending. See [submission instructions](docs/submission_instructions.md).
-
-## Ethics, limitations, and originality
-
-This project is an educational data-analysis exercise and does not provide professional decisions or advice. Do not use results for medical decisions, insurance pricing, or individual risk judgments. Discuss sensitive attributes, fairness, bias, confounding, and the source's limited documentation of sampling and collection. Observational associations do not establish causation.
-
-Build the analysis independently and be able to explain every submitted component. Acknowledge external sources and assistance according to course policy. The setup and notebook scaffold were prepared with AI assistance; the student must review, understand, adapt, and disclose that assistance as required. No original source solution was copied.
-
-## Remaining before submission
-
-- Confirm the student name spelling.
-- Verify that the TA has accepted the collaborator invitation; provide the instructor's GitHub username and verify instructor access.
-- Confirm the methods/libraries taught in class. The assignment title says COMP 4381 but later refers to COMP2350.
-- Complete the cleaning, interpreted EDA, appropriate analysis, ethics, and limitations.
-- Finish the report and export `report/final_report.pdf`.
-- Work through the [submission checklist](docs/submission_checklist.md).
+The dataset comes from the approved repository; its source notice is retained in `data/SOURCE_LICENSE.txt`. No source notebook, code, model, results, or conclusions were copied. AI assistance was used for repository setup and the Phase 1 notebook; review, understand, and disclose that assistance according to course policy.
