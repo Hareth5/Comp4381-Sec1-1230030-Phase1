@@ -29,8 +29,6 @@ figures/
 report/
 ```
 
-Empty folders contain `.gitkeep` so Git tracks them. The PDF is labelled as a placeholder for the later final report. The notebook contains only the Phase 1 topic, dataset, objective, and a dataset preview.
-
 ## Run the notebook
 
 Install JupyterLab and pandas, then open JupyterLab:
@@ -41,9 +39,3 @@ python -m jupyterlab
 ```
 
 Open `notebooks/project.ipynb` and choose **Restart Kernel and Run All Cells**. The notebook uses relative paths; no personal file paths need changing.
-
-## Source acknowledgment
-
-The raw dataset is unchanged. Its [source repository notice](https://github.com/asabbah44/Data-Science-Projects/blob/b170e5ff9104dcbcfacbc431d75cd08422721c91/LICENSE) credits Sukhman Singh (2023). AI assistance was used for setup and the starter notebook; follow the course's acknowledgment policy.
-
-**Deadline:** End of November 13, 2026, Asia/Hebron time. No repository modifications, commits, or pushes after the deadline.
