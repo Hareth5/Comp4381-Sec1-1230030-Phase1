@@ -1,0 +1,7 @@
+# Direct dependencies verified with Python 3.14.4 on Windows.
+jupyterlab==4.6.6
+ipykernel==7.4.0
+nbconvert==7.17.2
+pandas==3.1.1
+numpy==2.5.4
+matplotlib==3.11.2

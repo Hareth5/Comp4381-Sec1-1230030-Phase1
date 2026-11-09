@@ -1,0 +1,12 @@
+{
+  "approved_topic": "Medical Cost Prediction",
+  "topic_status": "Selected by the student on 2026-11-09",
+  "source_repository": "https://github.com/asabbah44/Data-Science-Projects",
+  "source_commit": "b170e5ff9104dcbcfacbc431d75cd08422721c91",
+  "source_url": "https://raw.githubusercontent.com/asabbah44/Data-Science-Projects/b170e5ff9104dcbcfacbc431d75cd08422721c91/Medical%20Cost%20Prediction/insurance.csv",
+  "local_path": "data/raw/insurance.csv",
+  "retrieved_on": "2026-11-09",
+  "sha256": "388eff679557d08ac19f463d025de5e0b4adc482537c8456d19934d78621fd47",
+  "bytes": 55628,
+  "modifications": "None; downloaded bytes preserved."
+}
