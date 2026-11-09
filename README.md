@@ -27,10 +27,8 @@ data/
     insurance.csv
   processed/
 notebooks/
-  project.ipynb
 figures/
 report/
-  final_report.pdf
 ```
 
 Empty folders contain `.gitkeep` so Git tracks them. The PDF is labelled as a placeholder for the later final report. The notebook contains only the Phase 1 topic, dataset, objective, and a dataset preview.
