@@ -6,9 +6,12 @@ This repository starts at the setup stage. Unfinished analysis and report sectio
 
 - [x] Confirm an approved topic and dataset: Medical Cost Prediction.
 - [x] Define the initial analytical question and unit of analysis in the README.
-- [ ] Confirm student name and add student ID to the README and report.
-- [x] Create and verify the private GitHub repository: `Hareth5/comp4381-medical-cost-analysis`.
-- [ ] Invite the instructor and TA using their confirmed GitHub usernames.
+- [ ] Confirm student name spelling.
+- [x] Add student ID 1230030, section 1, and phase 1 to project documents.
+- [x] Create the private GitHub repository; required name: `Hareth5/Comp4381-Sec1-1230030-Phase1`.
+- [x] Invite TA `Hadeel-Abdaljalil` as a collaborator on November 9, 2026; invitation pending acceptance.
+- [ ] Verify that the TA, `Hadeel-Abdaljalil`, has accepted the collaborator invitation.
+- [ ] Invite the instructor once their GitHub username is provided and verify access.
 - [x] Store the raw dataset and document its exact source.
 - [ ] Verify which libraries and methods were taught in the course.
 
@@ -37,7 +40,9 @@ This repository starts at the setup stage. Unfinished analysis and report sectio
 
 ## Version control
 
-Commit actual progress as it happens. Suggested future messages are `Document dataset quality checks`, `Explain cleaning decisions`, `Add interpreted exploratory figures`, and `Write findings and limitations`. Do not manufacture or backdate history. The initial setup commit alone does not satisfy the semester-long development requirement.
+Commit actual progress as it happens, before the submission deadline. Suggested messages are `Document dataset quality checks`, `Explain cleaning decisions`, `Add interpreted exploratory figures`, and `Write findings and limitations`. Do not manufacture or backdate history. The initial setup commit alone does not satisfy the semester-long development requirement.
+
+**Phase 1 cutoff:** End of November 13, 2026, Asia/Hebron time. No repository modifications, commits, or pushes after that cutoff. Follow [submission_instructions.md](submission_instructions.md) for the student-managed TA and Ritaj submissions.
 
 From the repository root:
 
@@ -50,4 +55,4 @@ git push
 
 ## Requirement ambiguity
 
-The assignment is titled COMP 4381 but mentions COMP2350 in its method restrictions. Confirm this discrepancy and the exact permitted methods with the instructor. The supplied document specifies no submission date or report length.
+The assignment is titled COMP 4381 but mentions COMP2350 in its method restrictions. Confirm this discrepancy and the exact permitted methods with the instructor. The original document specifies no submission date or report length; the student subsequently supplied the Phase 1 deadline recorded above.

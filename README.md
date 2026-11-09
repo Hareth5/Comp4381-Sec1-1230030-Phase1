@@ -2,8 +2,11 @@
 
 **Course:** COMP 4381 — Data Science and Analytics, Birzeit University, 2026/2027<br>
 **Student name:** Hareth shoman (from GitHub profile; confirm spelling)<br>
-**Student ID:** Pending<br>
-**Repository:** [Hareth5/comp4381-medical-cost-analysis](https://github.com/Hareth5/comp4381-medical-cost-analysis) (private; keep private)<br>
+**Student ID:** 1230030<br>
+**Section:** 1<br>
+**Phase:** 1<br>
+**Repository:** [Hareth5/Comp4381-Sec1-1230030-Phase1](https://github.com/Hareth5/Comp4381-Sec1-1230030-Phase1) (private; keep private)<br>
+**Phase 1 deadline:** November 13, 2026, end of day, Asia/Hebron time.<br>
 **Status:** Initial project setup; topic selected. Analysis and final report remain in progress.
 
 ## Topic, dataset, and objective
@@ -24,6 +27,7 @@ See [data documentation](data/README.md) for provenance and variable definitions
 ```text
 README.md
 requirements.txt                 # Tested direct dependency versions
+AGENTS.md                        # Deadline and repository instructions
 .gitignore
 .gitattributes
 data/
@@ -41,6 +45,7 @@ docs/
   course_requirements.md         # Supplied assignment, retained for reference
   project_plan.md
   submission_checklist.md
+  submission_instructions.md     # Phase 1 deadline, TA, and Ritaj delivery rules
   verification.md
   source_repository_license.txt  # Notice accompanying the dataset source
 ```
@@ -69,9 +74,15 @@ The initial notebook loads and audits the dataset. Later sections contain prompt
 
 ## GitHub development and access
 
-Keep this repository private. Add the instructor and TA through **Settings → Collaborators → Add people** once their correct GitHub usernames are known; invitations must be accepted for access to be established. Their identities must not be inferred from the dataset author's username.
+Keep this repository private. The designated TA account is [Hadeel-Abdaljalil](https://github.com/Hadeel-Abdaljalil). A collaborator invitation was sent on November 9, 2026 and is **pending acceptance**. TA access is established only after acceptance. The instructor's GitHub username is still needed; do not infer it from the dataset author's username.
 
 Make clear, meaningful commits as real work develops and push the latest working version throughout the semester. See [project_plan.md](docs/project_plan.md) for example commands. Do not upload only at the end or fabricate development history.
+
+## Phase 1 submission
+
+Commit and push all Phase 1 work before the end of November 13, 2026 (Asia/Hebron). **Do not modify the repository, commit, or push after that deadline.** Late updates lose marks.
+
+The student will send the repository URL and a copy of `notebooks/project.ipynb` to the TA. The student will also submit the notebook through the designated Ritaj assignment by replying to its message, using **TA ID 9027**. Do not submit via Ritaj Memo or another method. These manual submissions are pending. See [submission instructions](docs/submission_instructions.md).
 
 ## Ethics, limitations, and originality
 
@@ -81,8 +92,8 @@ Build the analysis independently and be able to explain every submitted componen
 
 ## Remaining before submission
 
-- Confirm the student name and student ID.
-- Provide instructor/TA GitHub usernames and verify access.
+- Confirm the student name spelling.
+- Verify that the TA has accepted the collaborator invitation; provide the instructor's GitHub username and verify instructor access.
 - Confirm the methods/libraries taught in class. The assignment title says COMP 4381 but later refers to COMP2350.
 - Complete the cleaning, interpreted EDA, appropriate analysis, ethics, and limitations.
 - Finish the report and export `report/final_report.pdf`.

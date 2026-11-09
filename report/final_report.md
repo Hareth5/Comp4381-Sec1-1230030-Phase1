@@ -3,7 +3,9 @@
 **Status:** Outline only. Complete this after performing and interpreting the analysis, then export the finished report to `report/final_report.pdf`.
 
 **Student:** Hareth shoman (confirm spelling)<br>
-**Student ID:** Pending<br>
+**Student ID:** 1230030<br>
+**Section:** 1<br>
+**Repository phase:** 1<br>
 **Course:** COMP 4381 — Data Science and Analytics, 2026/2027
 
 ## 1. Project Objective / Problem Formulation

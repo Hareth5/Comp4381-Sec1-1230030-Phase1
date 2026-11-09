@@ -2,6 +2,18 @@
 
 Check items only after verifying them. A scaffold is not a completed submission.
 
+## Phase 1 delivery requirements
+
+- [x] Repository name is exactly `Comp4381-Sec1-1230030-Phase1`.
+- [x] Collaborator invitation sent to `Hadeel-Abdaljalil` on November 9, 2026.
+- [ ] TA `Hadeel-Abdaljalil` has accepted the collaborator invitation.
+- [ ] Phase 1 work is committed and pushed before November 13, 2026, end of day, Asia/Hebron.
+- [ ] Student sends the TA the repository URL and a copy of `notebooks/project.ipynb`.
+- [ ] Student submits the notebook by replying to the designated Ritaj assignment message, using TA ID 9027; no Ritaj Memo or other method.
+- [ ] No repository modifications, commits, or pushes occur after the deadline.
+
+## Complete-project requirements
+
 - [ ] Work reflects my own understanding; I can explain every submitted component.
 - [ ] Topic and dataset come from the instructor's approved repository.
 - [ ] Repository is private; instructor and TA have access.

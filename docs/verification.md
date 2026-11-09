@@ -14,4 +14,12 @@ The notebook locates data relative to the repository and contains no personal ab
 
 These checks validate the initial setup and data audit. Preparation decisions, EDA, statistical analysis, optional modeling, final interpretations, and the final report remain to be completed. They have not been marked as passed or finished.
 
-Student ID and confirmed instructor/TA GitHub usernames are still needed. No collaborator invitations have been sent and no access is claimed for them.
+## Phase 1 submission setup update — November 9, 2026
+
+- Recorded student ID 1230030, section 1, and phase 1 in the README, notebook, and report outline.
+- Renamed the existing private repository to `Hareth5/Comp4381-Sec1-1230030-Phase1`, preserving its history, and updated the local origin URL.
+- Sent a collaborator invitation to the confirmed TA account `Hadeel-Abdaljalil`. GitHub returned a newly created invitation with write permission (the supported collaborator role for this personal repository). The invitation is pending acceptance; TA access is not yet confirmed.
+- Recorded the Phase 1 deadline: November 13, 2026, end of day in Asia/Hebron, with no repository changes, commits, or pushes after the cutoff.
+- Recorded the student's decision to handle sending the notebook/repository URL and the Ritaj assignment reply (TA ID 9027) personally. Neither delivery is marked complete.
+
+Student name spelling and the instructor's GitHub username still need confirmation. No instructor invitation has been sent.
