@@ -3,7 +3,6 @@
 **Student:** Hareth shoman<br>
 **Student ID:** 1230030<br>
 **Course:** COMP 4381 — Section 1<br>
-**Private repository:** [Comp4381-Sec1-1230030-Phase1](https://github.com/Hareth5/Comp4381-Sec1-1230030-Phase1)
 
 ## Topic and dataset
 
