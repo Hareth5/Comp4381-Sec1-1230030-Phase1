@@ -2,7 +2,6 @@
 
 **Student:** Hareth shoman<br>
 **Student ID:** 1230030<br>
-**Course:** COMP 4381 — Section 1<br>
 
 ## Topic and dataset
 
